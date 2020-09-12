@@ -6,14 +6,22 @@ a mail tool for send mail
 mailer target@mail.com 'title' 'content'
 ```
 
+default config path
+```
+HOMEDIR/.mailer_conf
+```
+
 config example
 ```json
 {
-    "config":"example"
+    "server": "smtp.mail.com",
+    "port": 587,
+    "user_name": "your-mail@mail.com",
+    "password": "your_pw"
 }
 ```
 
-flags
+[WIP]flags
 ```sh
 -c path of config 
 ```
