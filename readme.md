@@ -1,5 +1,9 @@
 # mailer 
 
+```
+go get github.com/Vstural/mailer
+```
+
 a mail tool for send mail 
 
 ```sh
