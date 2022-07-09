@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"mailer/pkg/config"
-	"mailer/pkg/mailer"
-	"mailer/pkg/utils"
 	"os"
 	"strings"
+
+	"github.com/Vstural/mailer/pkg/config"
+	"github.com/Vstural/mailer/pkg/mailer"
+	"github.com/Vstural/mailer/pkg/utils"
 )
 
 func main() {
