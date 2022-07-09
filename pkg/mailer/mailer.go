@@ -2,10 +2,10 @@ package mailer
 
 import (
 	"fmt"
-	"mailer/pkg/config"
-	"mailer/pkg/mailutils/outlook"
-
 	"net/smtp"
+
+	"github.com/Vstural/mailer/pkg/config"
+	"github.com/Vstural/mailer/pkg/mailutils/outlook"
 )
 
 func SendMail(conf *config.Conf, to []string, title, content string) error {
