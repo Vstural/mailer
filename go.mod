@@ -1,4 +1,4 @@
-module mailer
+module github.com/Vstural/mailer
 
 go 1.14
 
