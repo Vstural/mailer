@@ -27,7 +27,7 @@ func main() {
 	content := os.Args[3]
 
 	to := strings.Split(targetStr, ";")
-	err = mailer.SendMail(
+	err = mailer.SendOutlookMail(
 		conf,
 		to,
 		title,
